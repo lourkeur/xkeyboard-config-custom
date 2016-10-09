@@ -34,6 +34,7 @@ terminate tg \
 tj tm tr tw tz \
 ua us uz vn \
 za \
+custom \
 altwin capslock compose ctrl empty eurosign rupeesign group inet \
 keypad kpdl level3 level5 nbsp olpc shift srvr_ctrl typo
 

@@ -1,0 +1,37 @@
+Xkb_symbols "basic" {
+
+    include "us(workman-intl)"
+    name[Group1] = "Programming (Personal)";
+
+    //             Unmodified       Shift           AltGr            Shift+AltGr
+    // symbols row, left side
+    key <TLDE> { [ asciitilde,      dollar,         dead_tilde                  ] };
+    key <AE11> { [ percent,         ampersand                                   ] };
+    key <AE02> { [ bracketleft,     2,              currency                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE03> { [ braceleft,       3,              cent                        ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE04> { [ braceright,      4,              yen                         ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE05> { [ parenleft,       5,              EuroSign                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE06> { [ equal,           6,              sterling                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+
+    // symbols row, right side
+    key <AE07> { [ asterisk,        7                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE08> { [ parenright,      8,              onehalf                     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE09> { [ plus,            9                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE10> { [ bracketright,    0                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE01> { [ exclam,          1,              exclamdown,      U2E18      ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };  // reversed interrobang
+    key <LSGT> { [ numbersign,      grave,          dead_grave                  ] };
+    key <BKSP> { [ BackSpace,       BackSpace                                   ] };
+
+    // upper row, left side
+    key <AE12> { [ minus,           underscore,     hyphen,          endash     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AD11> { [ slash,           question,       questiondown,    U203D      ] };  // interrobang
+    key <AD12> { [ at,              asciicircum,    dead_circumflex, dead_caron ] };
+
+    key <BKSL> { [ backslash,       bar                                         ] };
+
+    // lower row, left side
+    key <AC11> { [ apostrophe,      quotedbl,       dead_acute                  ] };
+    key <AD10> { [ colon,           semicolon ] };
+    replace key <TAB>  { [ Escape ] };
+    replace key <AB10> { [ Tab    ] };
+};

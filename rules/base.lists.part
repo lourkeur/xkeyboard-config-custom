@@ -57,7 +57,8 @@
               tr \
               us \
               vn \
-              za
+              za \
+	      custom
 
 ! $thinkpads = thinkpad thinkpad60 thinkpadz60
 
