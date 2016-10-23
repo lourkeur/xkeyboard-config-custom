@@ -30,7 +30,7 @@ Xkb_symbols "basic" {
     key <BKSL> { [ backslash,       bar                                         ] };
 
     // lower row, left side
-    key <AC11> { [ apostrophe,      quotedbl,       dead_acute                  ] };
+    key <AC11> { [ quotedbl,        apostrophe,     dead_acute                  ] };
     key <AD10> { [ colon,           semicolon ] };
     replace key <AB10> { [ Tab    ] };
     replace key <DELE> { [ Escape ] };
