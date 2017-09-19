@@ -34,4 +34,7 @@ Xkb_symbols "basic" {
     key <AD10> { [ colon,           semicolon ] };
     replace key <AB10> { [ Tab    ] };
     replace key <DELE> { [ Escape ] };
+
+    // Workman makes Caps Lock BackSpace.  This undoes it.
+    replace key <CAPS> { [ Caps_Lock ] };
 };
