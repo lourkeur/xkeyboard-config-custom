@@ -8,16 +8,16 @@ Xkb_symbols "basic" {
     key <LSGT> { [ numbersign,      grave       ] };
     key <AE11> { [ percent,         ampersand   ] };
     key <TLDE> { [ asciitilde,      dollar      ] };
-    key <AE01> { [ exclam,          1           ] type[Group1] = "ALPHABETIC" };
-    key <AE02> { [ bracketleft,     2           ] type[Group1] = "ALPHABETIC" };
-    key <AE03> { [ braceleft,       3           ] type[Group1] = "ALPHABETIC" };
-    key <AE04> { [ braceright,      4           ] type[Group1] = "ALPHABETIC" };
-    key <AE05> { [ parenleft,       5           ] type[Group1] = "ALPHABETIC" };
-    key <AE06> { [ equal,           6           ] type[Group1] = "ALPHABETIC" };
-    key <AE07> { [ asterisk,        7           ] type[Group1] = "ALPHABETIC" };
-    key <AE08> { [ parenright,      8           ] type[Group1] = "ALPHABETIC" };
-    key <AE09> { [ plus,            9           ] type[Group1] = "ALPHABETIC" };
-    key <AE10> { [ bracketright,    0           ] type[Group1] = "ALPHABETIC" };
+    key <AE01> { [ exclam,          1           ], type[Group1] = "ALPHABETIC" };
+    key <AE02> { [ bracketleft,     2           ], type[Group1] = "ALPHABETIC" };
+    key <AE03> { [ braceleft,       3           ], type[Group1] = "ALPHABETIC" };
+    key <AE04> { [ braceright,      4           ], type[Group1] = "ALPHABETIC" };
+    key <AE05> { [ parenleft,       5           ], type[Group1] = "ALPHABETIC" };
+    key <AE06> { [ equal,           6           ], type[Group1] = "ALPHABETIC" };
+    key <AE07> { [ asterisk,        7           ], type[Group1] = "ALPHABETIC" };
+    key <AE08> { [ parenright,      8           ], type[Group1] = "ALPHABETIC" };
+    key <AE09> { [ plus,            9           ], type[Group1] = "ALPHABETIC" };
+    key <AE10> { [ bracketright,    0           ], type[Group1] = "ALPHABETIC" };
     key <AE12> { [ minus,           underscore  ] };
     key <BKSL> { [ backslash,       bar         ] };
     key <AD11> { [ slash,           question    ] };
@@ -34,5 +34,5 @@ Xkb_symbols "basic" {
 
     // make both alt keys Alt
     // I manage accented characters another way
-    include "level3(ralt_alt)";
+    include "level3(ralt_alt)"
 };
